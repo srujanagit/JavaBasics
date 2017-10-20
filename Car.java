@@ -1,5 +1,5 @@
 package abst.cls.pkg;
-//this is changed class
+//this is changed classfrom srujana2
 public abstract class Car {
 
 	protected String color ="red";
