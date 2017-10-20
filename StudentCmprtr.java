@@ -1,12 +1,12 @@
 package comprable.comrator;
 
-public class Student implements Comparable<Student> {
+public class StudentCmprtr {
 
 private	 String name;
 private	 int num;
 private	 String grade;
 	
-	public Student(String name,int num,String grade){
+	public StudentCmprtr(String name,int num,String grade){
 	this.name=name;
 	this.num=num;
 	this.grade=grade;
@@ -36,17 +36,4 @@ private	 String grade;
 		this.grade = grade;
 	}
 
-	public int compareTo(Student s) {
-		if(num==s.num)
-		return 0;
-		else if(num> s.num)
-			return 1;
-		else
-			return -1;
-	}
-	
 }
-/*1.implement comparable<classname>
-  2.write comparision code in compareTo(cls obj)
-  3.collection.sort(list)
-*/
