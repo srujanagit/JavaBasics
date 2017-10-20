@@ -29,3 +29,4 @@ by default we have master branch in local repo,in remote repo 'origin' serves th
 (git push --set-upstream origin <branch name>)
 
 18)to fetch data we give (git fetch origin master:master)
+19)if we make any changes to files we sent to remote repo we need to add that file again and commit then push to repo which replaces the previous file
